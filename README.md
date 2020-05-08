@@ -45,9 +45,9 @@ Use the conda virtual environment file <code>environment.yml</code>.
 ## Use of the reflection layer
 
 The notebook <code>reflection_algorithm_demo</code> goes through the steps used
-in the reflection layer. It gives some additional explanations (cf. also last
-section below) on the mathematical steps and also helps read through the code
-(there is a lot of broadcasting :flushed:). 
+in the reflection layer. It gives some additional explanations (cf. also the 
+last section below) on the mathematical steps and also helps read through the
+code (there is a lot of broadcasting :flushed:). 
 
 
 # Results
@@ -55,9 +55,9 @@ section below) on the mathematical steps and also helps read through the code
 I once applied the reflection layer to a Kaggle animal classification task,
 but I can't post the code as it was written during a gap week at work. The 
 reflection layer was inserted into a very shallow NN and this somehow improved
-performance (especially if one uses several reflection layers in parallel and
-then combines them). Well, perhaps I'll redo something in this direction at some
-point, but for now I am planning to try it on another type of task.
+performance (especially when using several reflection layers in parallel and
+then combining them). Well, perhaps I'll redo something in this direction at
+some point, but for now I am planning to try it on another type of task.
 
 **TO-DO**
 
