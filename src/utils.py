@@ -69,4 +69,6 @@ def yield_samples(n,
         y = (factors != 0).astype(factors.dtype)
         X = noise + alpha*(np.multiply(factors, blob_osc)
                            + np.multiply(y, blob_base))
+        X = np.expand_dims(X, -1)
+        y = y.reshape((-1,1))
         yield X, y
